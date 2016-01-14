@@ -587,9 +587,9 @@ Slider navigation
   font-size: 1rem;
   font-weight: 700;
   color: #a8b4be;
-  -webkit-transition: background-color 0.2s;
-  -moz-transition: background-color 0.2s;
-  transition: background-color 0.2s;
+  -webkit-transition: all 0.2s ease;
+  -moz-transition: all 0.2s ease;
+  transition: all 0.2s ease;
 }
 .cd-slider-nav a::before {
   content: '';
@@ -606,9 +606,9 @@ Slider navigation
   transform: translateX(-50%);
   background: url(../assets/cd-icon-navigation.svg) no-repeat 0 0;
 }
-.no-touch .cd-slider-nav a:hover {
+/*.no-touch .cd-slider-nav a:hover {
   background-color: rgba(0, 1, 1, 0.5);
-}
+}*/
 .cd-slider-nav li:first-of-type a::before {
   background-position: 0 0;
 }

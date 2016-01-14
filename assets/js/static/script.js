@@ -1,6 +1,5 @@
 $(function() {
     var navLength, i = 0;
-    $(document).scrollTop(0);
     jQuery.scrollSpeed(100, 800);
     setTimeout(function() {
         $('#transparent').hide();
@@ -18,10 +17,10 @@ $(function() {
     }, 4000);
 
     $('.menu').on('click', function() {
-        debugger;
         var parent = $(this).parent('.expand-bar');
         parent.addClass('height-adjust');
-        parent.find('.expansion').show()
+        parent.find('.expansion').show();
+        parent.find('.close').show();
     });
     $('.close').on('click', function() {
         var parent = $(this).parent(),
@@ -39,8 +38,5 @@ $(function() {
         } else {
             $('.cd-header').removeClass('scroll-header');
         }
-        // if ($(document).scrollTop() <=10) {
-
-        // }
     });
 });

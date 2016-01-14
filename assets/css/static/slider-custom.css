@@ -24,17 +24,31 @@
 }
 .custom-hero .cd-hero-slider li:first-child {
     
-    background-image: url(../../images/enterprise-hero-jpg.jpg);
+    background-image: url(../../images/enterprise_banner.jpg);
 }
 
 .custom-hero .cd-hero-slider li:nth-child(2) {
-    background-image: url(../../images/005.jpg);
+    background-image: url(../../images/hospitality_banner.jpg);
 }
 
 .custom-hero .cd-hero-slider li:nth-child(3) {
-    background-image: url(../../images/855.jpg);
+    background-image: url(../../images/retail_banner.jpg);
 }
 
 .custom-hero .cd-hero-slider li:last-child {
-    background-image: url(../../images/Academics-2-1024x512.jpg);
+    background-image: url(../../images/mobile_banner.jpg);
+}
+.cd-slider-nav a {
+	font-size: 16px;
+	padding-top: 25px;
+	background-color:transparent; 
+}
+.cd-slider-nav li.selected a :hover{
+  background-color:#000 !important; 
+  border:none;
+}
+.cd-slider-nav li.selected a {
+  color: #fff;
+  background-color:#000 !important;
+  border: none; 
 }
