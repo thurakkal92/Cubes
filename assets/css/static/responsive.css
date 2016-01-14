@@ -1,0 +1,21 @@
+@media only screen and (min-width: 768px) {
+/*    .cd-slider-nav .cd-marker,
+    .cd-slider-nav li {
+        width: 25%;
+    }*/
+/*    .cd-slider-nav {
+        height: 20px;
+    }*/
+    .cd-primary-nav {
+    	margin-top: 37px;
+    }
+    #cd-logo{
+    	margin: 0;
+    	margin-left: 5%;
+    }
+    .cd-header {
+    	height: 140px;
+    	z-index: 3;
+    	/*background-color: #fff;*/
+	}
+}
