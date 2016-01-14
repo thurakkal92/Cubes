@@ -36,6 +36,23 @@ a:hover {
     text-decoration: none;
 }
 
+.col-md-1,
+.col-md-10,
+.col-md-11,
+.col-md-12,
+.col-md-2,
+.col-md-3,
+.col-md-4,
+.col-md-5,
+.col-md-6,
+.col-md-7,
+.col-md-8,
+.col-md-9,
+.row {
+    padding: 0px;
+    margin: 0px;
+}
+
 .wrapper {
     width: 90%;
     max-width: 1100px;
@@ -118,7 +135,7 @@ a:hover {
 
 .section-2,
 .section-3,
-.section-5 {
+.section-footer {
     padding: 50px 0;
 }
 
@@ -213,26 +230,15 @@ a:hover {
     padding-bottom: 30px;
 }
 
-.col-md-1,
-.col-md-10,
-.col-md-11,
-.col-md-12,
-.col-md-2,
-.col-md-3,
-.col-md-4,
-.col-md-5,
-.col-md-6,
-.col-md-7,
-.col-md-8,
-.col-md-9,
-.row {
-    padding: 0px;
-    margin: 0px;
+.section-3 p {
+    font-size: 18px;
 }
+
 .section-3 .title1,
 .section-3 .title2 {
     padding-bottom: 15px;
 }
+
 .section-3 .title2 {
     text-align: right;
     position: relative;
@@ -314,23 +320,23 @@ a:hover {
     cursor: pointer;
 }
 
-.section-5 .col-md-4 {
-    padding-left: 50px;
-}
-
-.section-5 {
+.section-footer {
     background-color: #575757;
     color: #fff;
     font-size: 16px;
 }
 
-.section-5 .content span {
+.section-footer .col-md-4 {
+    padding-left: 50px;
+}
+
+.section-footer .content span {
     width: 100%;
     float: left;
     padding-bottom: 10px;
 }
 
-.section-5 p {
+.section-footer p {
     font-size: 32px;
     padding-bottom: 20px;
 }
