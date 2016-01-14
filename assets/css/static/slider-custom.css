@@ -1,0 +1,40 @@
+.scroll-header{
+	height: 75px !important;
+	background-color: rgb(43, 43, 43);
+    position: fixed;
+    -moz-box-shadow: 0 0 8px #000;
+    -ms-box-shadow: 0 0 8px #000;
+    -webkit-box-shadow: 0 0 8px #000;
+    -o-box-shadow: 0 0 8px #000;
+    box-shadow: 0 0 8px #000;
+    -moz-transition : all 1s ease;
+    -ms-transition : all 1s ease;
+    -webkit-transition : all 1s ease;
+    -o-transition : all 1s ease;
+    transition : all 1s ease;
+}
+.scroll-header #cd-logo{
+	display: none;
+}
+.scroll-header .cd-primary-nav {
+	margin-top: 0;
+}
+.custom-hero .cd-hero-slider{
+	margin-bottom: 0px;
+}
+.custom-hero .cd-hero-slider li:first-child {
+    
+    background-image: url(../../images/enterprise-hero-jpg.jpg);
+}
+
+.custom-hero .cd-hero-slider li:nth-child(2) {
+    background-image: url(../../images/005.jpg);
+}
+
+.custom-hero .cd-hero-slider li:nth-child(3) {
+    background-image: url(../../images/855.jpg);
+}
+
+.custom-hero .cd-hero-slider li:last-child {
+    background-image: url(../../images/Academics-2-1024x512.jpg);
+}

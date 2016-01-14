@@ -1,7 +1,6 @@
 $(function() {
     var navLength, i = 0;
-
-    $(this).scrollTop(0);
+    $(document).scrollTop(0);
     jQuery.scrollSpeed(100, 800);
     setTimeout(function() {
         $('#transparent').hide();
@@ -33,18 +32,15 @@ $(function() {
     });
 });
 
-//scroll smoothening
 $(function() {
-  $('a[href*=#]:not([href=#])').click(function() {
-    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
-      var target = $(this.hash);
-      target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
-      if (target.length) {
-        $('html,body').animate({
-          scrollTop: target.offset().top
-        }, 1000);
-        return false;
-      }
-    }
-  });
+    $(document).scroll(function() {
+        if ($(document).scrollTop() >= 50) {
+            $('.cd-header').addClass('scroll-header');
+        } else {
+            $('.cd-header').removeClass('scroll-header');
+        }
+        // if ($(document).scrollTop() <=10) {
+
+        // }
+    });
 });
