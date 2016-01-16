@@ -29,6 +29,13 @@ $(function() {
         $(this).hide();
         expandBar.removeClass('height-adjust');
     });
+
+    $('.menu-icon-mob').on('click',function(){
+        $('.mobile-menu').addClass('addmobile-style');
+    });
+    $('.close-mobile').on('click',function(){
+        $('.mobile-menu').removeClass('addmobile-style');
+    });
 });
 
 $(function() {

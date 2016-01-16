@@ -25,6 +25,7 @@
 html,
 body {
     font-family: 'GlacialIndifference-Regular';
+    overflow: hidden;
 }
 
 h1 {
@@ -356,4 +357,7 @@ a:hover {
 
 .disclaimer li:last-child {
     border-right: none;
+}
+.mobile-menu,.menu-icon-mob{
+    display: none;
 }
