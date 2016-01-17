@@ -318,8 +318,8 @@ a:hover {
     transition: all 1s ease;
     height: 240px;
     cursor: pointer;
+    width: 100%;
 }
-
 .section-footer {
     background-color: #575757;
     color: #fff;
